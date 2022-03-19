@@ -191,6 +191,27 @@
         min-height: 550px;
     }
 }
+@media only screen and (max-width: 600px) {
+
+    .description h1 {
+        color: white;
+        padding-top: 30px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: normal;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-shadow: 0 0 5px dodgerblue;
+    }
+    .description p{
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-shadow: 0 0 3px dodgerblue;
+    }
+}
 
 /* Image Carousel */
 .flex-container-home {
