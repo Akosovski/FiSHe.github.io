@@ -87,7 +87,7 @@
     margin-top: -23px;
     width: 100%;
     min-height: 650px;
-    background-image: url('/home-images/home-backdrop.jpg');
+    background-image: url('./home-images/home-backdrop.jpg');
     background-size: cover;
 }
 .description-content{
