@@ -78,3 +78,44 @@
     }
 }
 /* Header Properties - End */
+
+
+
+/* Footer Properties */
+.footer-container{
+    background-color: blue;
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    bottom: 0px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h1{
+    text-align: center;
+    font-size: 16px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 20px;
+    color: white;
+    transition: all 500ms;
+    font-weight: normal;
+}
+@media only screen and (max-width: 800px) {
+    .footer-content h1 {
+        text-align: center;
+        font-weight: normal;
+        font-size: 13px;
+        padding-left: auto;
+        padding-right: auto;
+        padding-top: 12px;
+        color: white;
+        transition: all 500ms;
+    }
+}
