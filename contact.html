@@ -22,7 +22,53 @@
             </div>          
         </div>
 
-        <h1 style="text-align:center">Contact Us</h1>
+        <div class="contact-description">
+            <img id="confused" src="./contact-us-images/confused-man.png" alt="confused">
+            <h1 style="text-align:center">Contact Us</h1>
+        </div>
+
+        <div class="contact-container">
+            <div class="form-container">
+                <form>
+                    <label id="form-labels" style="font-weight: bold;">Name:</label><br>
+                    <input type="text" id="form-textbox-name" onchange="checkUsername()" placeholder="Your name..."><br>
+                    <p id="name-warning"></p><br>
+
+                    <label id="form-labels" style="font-weight: bold;">Email:</label><br>
+                    <input type="text" id="form-textbox-email" onchange="checkEmail()" placeholder="Your email..."><br>
+                    <p id="email-warning"></p><br>
+
+                    <label id="form-labels" style="font-weight: bold;">Gender:</label><br>
+                    <input name="gender" type="radio" class="form-radio" value="Male">
+                    <label id="form-labels">Male</label><br>
+                    <input name="gender" type="radio" class="form-radio" value="Female">
+                    <label id="form-labels">Female</label><br>
+                    <div id="spacer"></div>
+
+                    <label id="form-labels" style="font-weight: bold;">Contact Reason</label><br>
+
+                    <input name="reason" type="radio" class="form-radio" value="Request">
+                    <label id="form-labels">Request Product</label><br>
+
+                    <input name="reason" type="radio" class="form-radio" value="Business">
+                    <label id="form-labels">Business Inquiry</label><br>
+
+                    <input name="reason" id="radio-other" onchange="checkRadio()" type="radio" class="form-radio" value="Other">
+                    <label id="form-labels">Other Reason</label><br>
+                    <input type="text" id="form-textbox-other" placeholder="Any other reason?"><br>
+
+                    <label id="form-labels" style="font-weight: bold;">Message</label><br>
+                    <textarea rows="4" cols="35" name="message" id="message-area" onchange="checkArea()"></textarea><br>
+                    <p id="area-warning"></p><br>
+
+                    <button id="form-submit-button" onclick="submitAll()">Submit</button>
+                </form>
+            </div>
+
+            <div class="picture-container">
+                <img id="contact-image" src="./contact-us-images/contact-us.jpg" alt="contact-image">
+            </div>
+        </div>
         
         <footer>
             <div class="footer-container">
@@ -31,5 +77,6 @@
                 </div>
             </div>
         </footer>
+        <script src="contact-app.js"></script>
     </body>
 </html>
