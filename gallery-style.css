@@ -83,7 +83,12 @@ body {
 /* Header Properties - End */
 
 /* Gallery Properties - Start */
-
+.gallery-section-1, .gallery-section-2,.gallery-section-3{
+    position: relative;
+    background-color: dodgerblue;
+    min-height: 50%;
+}
+  
 /* Gallery Properties - End*/
 
 /* Footer Properties */
