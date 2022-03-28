@@ -1,6 +1,5 @@
-* {
-    /* margin: 0; 
-     padding: 0; */
+body {
+    margin: 0; 
     box-sizing: border-box;
 }
 
@@ -91,6 +90,7 @@
     margin-top: -23px;
     width: 100%;
     min-height: 650px;
+    max-height: 800px;
     background-image: url('./home-images/home-backdrop.jpg');
     background-size: cover;
     transition: all 500ms;
@@ -98,6 +98,7 @@
 .description-content{
     background-color: rgba(0,0,0,.45);
     min-height: 650px;
+    max-height: 800px;
     transition: all 500ms;
 }
 .description h1 {
@@ -245,7 +246,7 @@
 .carousel {display: none}
 .carousel-container img {vertical-align: middle;}
 .carousel-container {
-    max-width: 1235px;
+    max-width: 1600px;
     position: relative;
     margin: auto;
 }
