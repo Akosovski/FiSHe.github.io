@@ -39,18 +39,18 @@
                     <p id="email-warning"></p><br>
 
                     <label id="form-labels" style="font-weight: bold;">Gender:</label><br>
-                    <input name="gender" type="radio" class="form-radio" value="Male">
+                    <input id="radio-male" name="gender" type="radio" class="form-radio" onchange="checkGender()" value="Male">
                     <label id="form-labels">Male</label><br>
-                    <input name="gender" type="radio" class="form-radio" value="Female">
+                    <input id="radio-female" name="gender" type="radio" class="form-radio" onchange="checkGender()" value="Female">
                     <label id="form-labels">Female</label><br>
-                    <div id="spacer"></div>
+                    <p id="gender-warning"></p><br>
 
-                    <label id="form-labels" style="font-weight: bold;">Contact Reason</label><br>
-
-                    <input name="reason" type="radio" class="form-radio" value="Request">
+                    <label id="form-labels" style="font-weight: bold;">Contact Reason</label>
+                    <p id="reason-warning" style="margin-left: 30px;"></p><br>
+                    <input id="radio-request" name="reason" type="radio" class="form-radio" value="Request">
                     <label id="form-labels">Request Product</label><br>
 
-                    <input name="reason" type="radio" class="form-radio" value="Business">
+                    <input id="radio-business" name="reason" type="radio" class="form-radio" value="Business">
                     <label id="form-labels">Business Inquiry</label><br>
 
                     <input name="reason" id="radio-other" onchange="checkRadio()" type="radio" class="form-radio" value="Other">

@@ -29,6 +29,31 @@ function checkEmail(){
     }
 }
 
+function checkGender(){
+    var genderMale = document.getElementById("radio-male").value;
+    var genderFemale = document.getElementById("radio-female").value;
+    var warning = document.getElementById("gender-warning");
+
+    if (genderMale.checked == true || genderFemale.checked == true){
+        warning.innerHTML = "";
+    }else {
+        warning.innerHTML = "Gender must be selected";
+    }
+}
+
+function checkReason(){
+    var requestValue = document.getElementById("radio-request").value;
+    var businessValue = document.getElementById("radio-business").value;
+    var otherValue = document.getElementById("radio-other").value;
+    var warning = document.getElementById("reason-warning");
+
+    if (businessValue.checked == true || requestValue.checked == true || otherValue.checked == true){
+        warning.innerHTML = "";
+    }else {
+        warning.innerHTML = "Reason must be selected";
+    }
+}
+
 function checkArea(){
     var areaValue = document.getElementById("message-area").value;
     var warning = document.getElementById("area-warning");
