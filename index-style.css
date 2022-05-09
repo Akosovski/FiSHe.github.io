@@ -91,6 +91,7 @@ body {
     width: 100%;
     min-height: 650px;
     max-height: 800px;
+    background-color: lightskyblue;
     background-image: url('#');
     background-size: cover;
     transition: all 500ms;
