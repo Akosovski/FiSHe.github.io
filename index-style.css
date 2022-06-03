@@ -2,6 +2,7 @@ body {
     margin: 0; 
     box-sizing: border-box;
     background-color: lightskyblue;
+    font-family: 'Oxygen', sans-serif;
 }
 
 /* Header Properties - Start */
@@ -104,9 +105,9 @@ body {
 }
 .description h1 {
     color: white;
-    padding-top: 200px;
+    padding-top: 130px;
     text-align: center;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: normal;
     padding-left: 30px;
     padding-right: 30px;
@@ -116,9 +117,9 @@ body {
 .description p{
     color: white;
     text-align: center;
-    font-size: 20px;
-    padding-left: 120px;
-    padding-right: 120px;
+    font-size: 25px;
+    padding-left: 220px;
+    padding-right: 220px;
     text-shadow: 0 0 3px dodgerblue;
     transition: all 500ms;
 }
@@ -130,20 +131,20 @@ body {
     }
     .description h1 {
         color: white;
-        padding-top: 120px;
+        padding-top: 150px;
         text-align: center;
-        font-size: 26px;
+        font-size: 29px;
         font-weight: normal;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 160px;
+        padding-right: 160px;
         text-shadow: 0 0 5px dodgerblue;
     }
     .description p{
         color: white;
         text-align: center;
-        font-size: 17px;
-        padding-left: 50px;
-        padding-right: 50px;
+        font-size: 19px;
+        padding-left: 90px;
+        padding-right: 90px;
         text-shadow: 0 0 3px dodgerblue;
     }
     .description-content{
@@ -155,7 +156,7 @@ body {
         color: white;
         padding-top: 100px;
         text-align: center;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: normal;
         padding-left: 10px;
         padding-right: 10px;
@@ -164,10 +165,13 @@ body {
     .description p{
         color: white;
         text-align: center;
-        font-size: 16px;
-        padding-left: 50px;
-        padding-right: 50px;
+        font-size: 18px;
+        padding-left: 70px;
+        padding-right: 70px;
         text-shadow: 0 0 3px dodgerblue;
+    }
+    .description-content{
+        max-height: 360px;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -176,7 +180,7 @@ body {
         min-height: 420px;
     }
     .description h1 {
-        margin-top: 50px;
+        padding-top: 100px;
         color: white;
         text-align: center;
         font-size: 21px;
@@ -197,25 +201,11 @@ body {
         min-height: 420px;
     }
 }
-@media only screen and (max-width: 600px) {
 
+@media only screen and (max-width: 450px) {
+    
     .description h1 {
-        color: white;
-        padding-top: 30px;
-        text-align: center;
-        font-size: 18px;
-        font-weight: normal;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-shadow: 0 0 5px dodgerblue;
-    }
-    .description p{
-        color: white;
-        text-align: center;
-        font-size: 14px;
-        padding-left: 50px;
-        padding-right: 50px;
-        text-shadow: 0 0 3px dodgerblue;
+        padding-top: 50px;
     }
 }
 
