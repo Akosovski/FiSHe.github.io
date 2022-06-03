@@ -304,10 +304,10 @@ body {
 }
 .footer-content h1{
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     padding-left: auto;
     padding-right: auto;
-    padding-top: 20px;
+    padding-top: 10px;
     color: white;
     transition: all 500ms;
     font-weight: normal;
@@ -316,10 +316,10 @@ body {
     .footer-content h1 {
         text-align: center;
         font-weight: normal;
-        font-size: 13px;
+        font-size: 14px;
         padding-left: auto;
         padding-right: auto;
-        padding-top: 12px;
+        padding-top: 15px;
         color: white;
         transition: all 500ms;
     }

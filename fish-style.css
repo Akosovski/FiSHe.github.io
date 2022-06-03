@@ -112,17 +112,30 @@ body {
 }
 .shop-image{
     display: inline-block;
-    padding-top: 10px;
     margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0px;
     max-width: 90%;
     height: auto;
     position: inherit;
     object-fit: cover;
     transition: all 300ms;
+    border: 1px solid black;
 }
 .spacer{
     height: 30px;
+}
+.shop-card:hover {
+    background-color: dodgerblue;
+    box-shadow: 12px 12px lightgreen;
+    color: white;
+    transition: all 500ms;
+}
+
+.shop-card:active {
+    
+    background-color: green;
 }
 
 @media only screen and (max-width: 1350px) {
@@ -134,7 +147,7 @@ body {
     .shop-card{
         flex: 40%;
         box-sizing: border-box;
-        width: auto;
+        max-width: 90%;
         height: auto;
         border: 1px solid black;
         margin: 15px;
@@ -142,8 +155,10 @@ body {
         margin-right: 25px;
     }
     .shop-image{
-        margin: 10px;
+        margin-top: 20px;
         margin-bottom: -5px;
+        margin-left: auto;
+        margin-right: auto;
         width: 100%;
         height: auto;
     }
@@ -169,10 +184,12 @@ body {
         margin-right: 70px;
     }
     .shop-image{
-        margin: 10px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -5px;
         max-width: 95%;
         height: auto;
-        margin-bottom: -5px;
     }
     .spacer{
         height: 30px;
@@ -180,10 +197,10 @@ body {
 }
 @media only screen and (max-width: 800px) {
     .shop-image{
-        margin: 10px;
+        margin: 25px;
         max-width: 85%;
         height: auto;
-        padding: 15px;
+        padding: 0;
         margin-bottom: -5px;
     }
     .shop-card{
