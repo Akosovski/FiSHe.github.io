@@ -7,9 +7,9 @@ body {
 
 /* Header Properties - Start */
 .navbar-container{
-    background-color: blue;
+    background-color: #383c41;
     display: inline-block;
-    height: 90px;
+    height: 110px;
     width: 100%;
     position: sticky;
     top: 0px;
@@ -22,11 +22,18 @@ body {
     color: white;
     transition: all 500ms;
 }
+#navbar-logo{
+    width: 190px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 5px;
+}
 .flex-container {
     width: 100%;
     justify-content: center;
     display: flex;
-    background-color: dodgerblue;
+    background: rgb(0,253,224);
+    background: linear-gradient(90deg, rgba(0,253,224,1) 5%, rgba(0,212,255,1) 100%);
 }
 .flex-container a {
     text-decoration: none;
@@ -288,7 +295,7 @@ body {
 
 /* Footer Properties */
 .footer-container{
-    background-color: blue;
+    background-color: #383c41;
     display: inline-block;
     height: 80px;
     width: 100%;
