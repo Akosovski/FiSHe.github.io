@@ -124,7 +124,7 @@ body {
 
 @media only screen and (max-width: 1160px) {
     .description-container {
-        margin-top: -17px;
+        margin-top: -20px;
         min-height: 590px;
     }
     .description h1 {
@@ -147,7 +147,7 @@ body {
 }
 @media only screen and (max-width: 850px) {
     .description h1 {
-        padding-top: 100px;
+        padding-top: 140px;
         text-align: center;
         font-size: 30px;
         font-weight: normal;
@@ -189,7 +189,6 @@ body {
 }
 
 @media only screen and (max-width: 450px) {
-    
     .description h1 {
         padding-top: 50px;
     }
