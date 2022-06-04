@@ -2,7 +2,7 @@ body {
     margin: 0; 
     box-sizing: border-box;
     background-color: lightskyblue;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* Header Properties - Start */
@@ -87,12 +87,12 @@ body {
 
 /* Body Description */
 .description-container {
-    margin-top: -23px;
+    margin-top: -35px;
     width: 100%;
     min-height: 650px;
-    max-height: 800px;
+    max-height: 900px;
     background-color: lightskyblue;
-    background-image: url('#');
+    background-image: url('./home-images/background-image.jpg');
     background-size: cover;
     transition: all 500ms;
 }
@@ -109,7 +109,7 @@ body {
     font-weight: normal;
     padding-left: 30px;
     padding-right: 30px;
-    text-shadow: 0 0 5px dodgerblue;
+    text-shadow: 0 0 12px dodgerblue;
     transition: all 500ms;
 }
 .description p{
@@ -118,7 +118,7 @@ body {
     font-size: 25px;
     padding-left: 220px;
     padding-right: 220px;
-    text-shadow: 0 0 3px dodgerblue;
+    text-shadow: 0 0 9px dodgerblue;
     transition: all 500ms;
 }
 
@@ -128,22 +128,18 @@ body {
         min-height: 590px;
     }
     .description h1 {
-        color: white;
         padding-top: 150px;
         text-align: center;
         font-size: 29px;
         font-weight: normal;
         padding-left: 160px;
         padding-right: 160px;
-        text-shadow: 0 0 5px dodgerblue;
     }
     .description p{
-        color: white;
         text-align: center;
         font-size: 19px;
         padding-left: 90px;
         padding-right: 90px;
-        text-shadow: 0 0 3px dodgerblue;
     }
     .description-content{
         min-height: 590px;
@@ -151,22 +147,18 @@ body {
 }
 @media only screen and (max-width: 850px) {
     .description h1 {
-        color: white;
         padding-top: 100px;
         text-align: center;
         font-size: 30px;
         font-weight: normal;
         padding-left: 10px;
         padding-right: 10px;
-        text-shadow: 0 0 5px dodgerblue;
     }
     .description p{
-        color: white;
         text-align: center;
         font-size: 18px;
         padding-left: 70px;
         padding-right: 70px;
-        text-shadow: 0 0 3px dodgerblue;
     }
     .description-content{
         max-height: 360px;
@@ -179,21 +171,17 @@ body {
     }
     .description h1 {
         padding-top: 100px;
-        color: white;
         text-align: center;
         font-size: 21px;
         font-weight: normal;
         padding-left: 10px;
         padding-right: 10px;
-        text-shadow: 0 0 5px dodgerblue;
     }
     .description p{
-        color: white;
         text-align: center;
         font-size: 15px;
         padding-left: 50px;
         padding-right: 50px;
-        text-shadow: 0 0 3px dodgerblue;
     }
     .description-content{
         min-height: 420px;
