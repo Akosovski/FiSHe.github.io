@@ -83,7 +83,78 @@ body {
 /* Header Properties - End */
 
 /* Gallery Properties - Start */
-
+#title-p{
+    text-align:center; 
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 9px dodgerblue;
+}
+#title-h1{
+    text-align:center; 
+    color: white;
+    font-size: 40px;
+    text-shadow: 0 5px 20px dodgerblue;
+}
+.gallery-container{
+    transition: all 300ms;
+}
+.gallery-container h1{
+    text-align: center;
+    transition: all 300ms;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 5px 20px dodgerblue;
+}
+.photo-box {
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,253,224,1) 5%, rgba(0,212,255,1) 100%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.photo-box img{
+    max-width: 50vh;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+@media only screen and (max-width: 1300px) {
+    .photo-box {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 25px;
+    }
+    .photo-box img{
+        max-width: 80vh;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .photo-box {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-bottom: 25px;
+    }
+    .photo-box img{
+        max-width: 80vh;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 25px;
+    }
+}
 /* Gallery Properties - End*/
 
 /* Footer Properties */

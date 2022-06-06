@@ -2,6 +2,7 @@ body {
     margin: 0; 
     box-sizing: border-box;
     font-family: 'PT Sans', sans-serif;
+    background-color: lightskyblue;
 }
 
 /* Header Properties - Start */
@@ -91,6 +92,8 @@ body {
     text-align: center;
     font-size: 40px;
     margin-top: 40px;
+    color: white;
+    text-shadow: 0 5px 20px dodgerblue; 
 }
 .contact-description p{
     text-align: center;
@@ -99,6 +102,8 @@ body {
     font-size: 22px;
     padding-left: 20px;
     padding-right: 20px;
+    color: white;
+    text-shadow: 0 0 9px dodgerblue; 
 }
 #confused {
     display: block;
