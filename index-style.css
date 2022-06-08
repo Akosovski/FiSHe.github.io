@@ -89,7 +89,7 @@ body {
 .description-container {
     margin-top: -35px;
     width: 100%;
-    min-height: 80vh;
+    min-height: 650px;
     max-height: 100vh;
     background-color: lightskyblue;
     background-image: url('./home-images/background-image.jpg');
