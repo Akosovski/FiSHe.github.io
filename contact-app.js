@@ -1,3 +1,5 @@
+var delayInMilliseconds = 1000;
+
 function checkUsername(){
     var username = document.getElementById("form-textbox-name").value;
     var warning = document.getElementById("name-warning");
@@ -33,11 +35,11 @@ function checkGender(){
     var genderMale = document.getElementById("radio-male").value;
     var genderFemale = document.getElementById("radio-female").value;
     var warning = document.getElementById("gender-warning");
-
-    if (genderMale.checked == true || genderFemale.checked == true){
-        warning.innerHTML = "";
-    }else {
+    
+    if(genderMale.checked == false || genderFemale.checked == false){
         warning.innerHTML = "Gender must be selected";
+    }else{
+        warning.innerHTML = "";
     }
 }
 
@@ -47,10 +49,10 @@ function checkReason(){
     var otherValue = document.getElementById("radio-other").value;
     var warning = document.getElementById("reason-warning");
 
-    if (businessValue.checked == true || requestValue.checked == true || otherValue.checked == true){
-        warning.innerHTML = "";
-    }else {
+    if(businessValue.checked == false || requestValue.checked == false || otherValue.checked == false){
         warning.innerHTML = "Reason must be selected";
+    }else {
+        warning.innerHTML = "";
     }
 }
 
@@ -73,4 +75,9 @@ function checkRadio(){
     }else {
         othersTextbox.style.display = "none";
     }
+}
+
+function submit(){
+    setTimeout(function() {}, delayInMilliseconds);
+    alert("Successfully Submitted!");
 }

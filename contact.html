@@ -44,26 +44,26 @@
                     <input id="radio-male" name="gender" type="radio" class="form-radio" onchange="checkGender()" value="Male">
                     <label id="form-labels">Male</label><br>
                     <input id="radio-female" name="gender" type="radio" class="form-radio" onchange="checkGender()" value="Female">
-                    <label id="form-labels">Female</label><br>
-                    <p id="gender-warning"></p><br>
+                    <label id="form-labels">Female</label>
+                    <p id="gender-warning">Gender must be selected</p><br><br>
 
-                    <label id="form-labels" style="font-weight: bold;">Contact Reason</label>
-                    <p id="reason-warning" style="margin-left: 30px;"></p><br>
-                    <input id="radio-request" name="reason" type="radio" class="form-radio" value="Request">
+                    <label id="form-labels" style="font-weight: bold;">Contact Reason</label><br>
+                    <input id="radio-request" onchange="checkReason()" name="reason" type="radio" class="form-radio" value="Request">
                     <label id="form-labels">Request Product</label><br>
 
-                    <input id="radio-business" name="reason" type="radio" class="form-radio" value="Business">
+                    <input id="radio-business" onchange="checkReason()" name="reason" type="radio" class="form-radio" value="Business">
                     <label id="form-labels">Business Inquiry</label><br>
 
-                    <input name="reason" id="radio-other" onchange="checkRadio()" type="radio" class="form-radio" value="Other">
-                    <label id="form-labels">Other Reason</label><br>
+                    <input name="reason" id="radio-other" onchange="checkRadio(), checkReason()" type="radio" class="form-radio" value="Other">
+                    <label id="form-labels">Other Reason</label>
+                    <p id="reason-warning" style="margin-left: 30px;">Reason must be selected</p><br>
                     <input type="text" id="form-textbox-other" placeholder="Any other reason?"><br>
 
                     <label id="form-labels" style="font-weight: bold;">Message</label><br>
                     <textarea rows="4" cols="35" name="message" id="message-area" onchange="checkArea()"></textarea><br>
                     <p id="area-warning"></p><br>
 
-                    <button id="form-submit-button" onclick="submitAll()">Submit</button>
+                    <button id="form-submit-button" onclick="submit()" type="button" value="Submit">Submit</button>
                 </form>
             </div>
 
