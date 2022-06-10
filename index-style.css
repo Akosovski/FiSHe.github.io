@@ -219,7 +219,6 @@ body {
     transition: all 300ms;
     color: white;
 }
-.carousel {display: none}
 .carousel-container img {vertical-align: middle;}
 .carousel-container {
     max-width: 1600px;
