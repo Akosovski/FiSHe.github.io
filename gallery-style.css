@@ -171,8 +171,9 @@ body {
         margin-top: 25px;
     }
     #gallery-description{
+        margin-top: 4vh;
         font-size: 18px;
-        margin-bottom: 2vh;
+        margin-bottom: 3vh;
     }
     .gallery-container h1{
         font-size: 29px;
