@@ -99,7 +99,7 @@ body {
 .gallery-container h1{
     text-align: center;
     transition: all 300ms;
-    font-size: 40px;
+    font-size: 42px;
     color: white;
     text-shadow: 0 5px 20px dodgerblue;
 }
@@ -152,6 +152,9 @@ body {
     #gallery-description{
         font-size: 22px;
     }
+    .gallery-container h1{
+        font-size: 36px;
+    }
 }
 @media only screen and (max-width: 600px) {
     .photo-box {
@@ -169,6 +172,10 @@ body {
     }
     #gallery-description{
         font-size: 18px;
+        margin-bottom: 2vh;
+    }
+    .gallery-container h1{
+        font-size: 29px;
     }
 }
 /* Gallery Properties - End*/
