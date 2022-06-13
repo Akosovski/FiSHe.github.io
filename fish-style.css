@@ -125,6 +125,10 @@ body {
     transition: all 300ms;
     border: 1px solid black;
 }
+.shop-container p {
+    margin-left: 22px;
+    margin-right: 22px;
+}
 .spacer{
     height: 30px;
 }
