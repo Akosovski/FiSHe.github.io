@@ -4,4 +4,4 @@
  
 Implemented with pure HTML/CSS (Javascript for Validations). All kind of materials used on this website is not owned by me and belongs to their respective owners.
 
-Finished - 17th of June 2022
+Project Finished - 17th of June 2022
