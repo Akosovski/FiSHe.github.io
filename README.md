@@ -5,6 +5,8 @@ This project is a Lab assigment for Human Computer Interaction Lesson. Implement
 **Project Lab HCI Even Semester 2020/2021**
 **Computer Science - BINUS University**
 
+Production Link : https://akosovski.github.io/FisHE-HCI.github.io/
+
 ---
 
 ## Languages & Tools 🛠️
